@@ -1,2 +1,8 @@
 image:
   file: .gitpod.Dockerfile
+tasks:
+  - command: gcloud auth login
+vscode:
+  extensions:
+    - ms-kubernetes-tools.vscode-kubernetes-tools@1.2.0:8b6GpNcAG8ZOxmYhaPtKpA==
+    - googlecloudtools.cloudcode@1.3.0:/j9j+X0oT7jQD6g4ZxU3gQ==
